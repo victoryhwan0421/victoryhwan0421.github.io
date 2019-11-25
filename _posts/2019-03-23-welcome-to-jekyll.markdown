@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Introduce"
-date:   2019-03-23 21:03:36 +0530
-categories: Javascript NodeJS
+date:   2019-11-25 21:26:36 +0530
+categories: Introduce My Info
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-
+Hello, My name is SeungHwan-Lee. I'm a unversity student in Kangwon National University, and major is Computer Science.
+I'm interested in Game, because I've been dreaming of becoming a game developer since I was young.
 ```javascript
 const Razorpay = require('razorpay');
 
