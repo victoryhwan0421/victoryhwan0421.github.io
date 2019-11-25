@@ -13,14 +13,14 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: SeungHwan-Lee
-  tagline: Kangwon National University, 
+  tagline: Kangwon National University
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
   social_links:
-    facebook: victoryhwan0421
-    instagram: victoryhwan0421
+    facebook: victoryhwan@naver.com
+    instagram: victoryhwan@naver.com
     github:  victoryhwan0421
     rss: rss
     # dribbble: jekyll
