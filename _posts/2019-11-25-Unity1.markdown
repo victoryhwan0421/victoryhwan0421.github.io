@@ -2,7 +2,7 @@
 layout: post
 title:  "Unity1"
 date:   2019-11-26 00:14:31 +0530
-categories: Unity Game Horror
+categories: Unity Game Horror C#
 ---
 This is my first Post 
 
@@ -19,7 +19,8 @@ This is my first Post
 
 **Script for FPS view & Players Movements**
 
-```using System.Collections;
+```C#script
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
