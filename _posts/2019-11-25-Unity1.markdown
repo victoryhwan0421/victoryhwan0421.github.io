@@ -4,11 +4,127 @@ title:  "Unity1"
 date:   2019-11-26 00:14:31 +0530
 categories: Unity Game Horror
 ---
-This is my first Post
+This is my first Post 
 
-**ScreenShots**
+**ScreenShots_1 Directional Light ON**
 <img width="742" alt="캡처1" src="https://user-images.githubusercontent.com/57661571/69554666-726e9a80-0fe5-11ea-8c63-3bde190c1226.PNG">
 
+
+**ScreenShots_2 Directional Light Off & FPS(First-Person-Shooter) view**
 <img width="738" alt="캡처2" src="https://user-images.githubusercontent.com/57661571/69554873-c5e0e880-0fe5-11ea-9ca7-35585660a5d4.PNG">
 
+
+**ScreenShots_3 Directional Light off & Flashlight ON**
 <img width="736" alt="캡처3" src="https://user-images.githubusercontent.com/57661571/69555202-253ef880-0fe6-11ea-9a15-6fb6eb2cd575.PNG">
+
+**Script for FPS view & Players Movements**
+
+```using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    [SerializeField]
+    private float walkSpeed; // 걷는 속도
+
+    [SerializeField]
+    private float lookSensitivity; // 카메라의 민감도
+
+    [SerializeField]
+    private float cameraRotationLimit; // 고개를 올리고 내릴 때 자연스러운 범위 지정
+    private float currentCameraRotationX = 0f; // default = 정면,    ex) = 45f : 45도 위를 보고 있는 것
+
+    [SerializeField]
+    private Camera theCamera; // 카메라 컴포넌트를 가져온다.
+
+
+
+    private Rigidbody myRigid; // Collider로 충돌 영역을 설정하고, 거기에 물리학을 입히는 것
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        //theCamera = FindObjectOfType<Camera>(); // Hierarchy의 모든 컴포넌트 중 "Camera"를 찾아 theCamera에 
+        // Player(캡슐)에 붙어 있는 rigidbody 컴포넌트를 myRigid에 포함시키는 것
+        myRigid = GetComponent<Rigidbody>(); 
+
+    }
+
+    // Update is called once per frame
+    void Update() // 매 프레임마다 실행시키는 메소드, 1초에 약 60회, 어떠한 입력에 실시간으로 반응하도록
+    {
+        Move();
+        CameraRotation();
+        CharacterRotation();
+
+
+    }
+
+    private void Move()
+    {// 이렇게 함수 안에서 선언 생성된 변수는 함수 호출이 끝나면 파괴되어 사라진다.
+
+        // *Input: 입력이 이루어졌을 때, *Horizontal(A 또는 D, 좌, 우 화살표, 유니티에서 명시)
+        // 1(오른쪽), -1(왼쪽), 0(Non_Key)이 리턴되면서 _moveDirX로 들어간다.
+        float _moveDirX = Input.GetAxisRaw("Horizontal"); // 유니티3D에서 X는 좌.우를 의미함
+        float _moveDirZ = Input.GetAxisRaw("Vertical"); // Z는 앞, 뒤
+
+        // Vector값을 이용해서 실제로 움직임
+        // Vector3 = float값을 3개 가지고 있는 변수
+        // right = 기본값 (1, 0, 0)이며, _moveDirX 리턴 값에 따라 좌, 우를 판별
+        // forward = 기본값 (0, 0, 1)이며, _moveDirZ 리턴 값에 따라 앞(1), 뒤(-1)를 판별
+        // transform = transform 컴포넌트가 가지고 있는 위치값, 회전값
+        Vector3 _moveHorizontal = transform.right * _moveDirX;
+        Vector3 _moveVertical = transform.forward * _moveDirZ;
+
+
+        // (1, 0, 0) + (0, 0, 1) = (1, 0, 1) = 2
+        // (1, 0, 1) = 2  ->  normalized  ->  (0.5, 0, 0.5) = 1
+        // 합이 1이 나오도록 정규화 시키면 개발자 입장에서도 1초에 얼마나 이동시킬 건지 계산이 편리해진다.
+        Vector3 _velocity = (_moveHorizontal + _moveVertical).normalized * walkSpeed;
+
+        // transform의 현재 위치 + 속도만큼
+        // transform.position + _velocity만 입력시 순간이동처럼 보이므로 시간으로 나눠준다.
+        // Time.deltaTime = void Update()가 1초에 60프레임 정도 보여주기에 1초에 걸쳐서 _velocity만큼 움직이도록
+        // *Time.deltaTime = 약 0.016
+        myRigid.MovePosition(transform.position + _velocity * Time.deltaTime);
+    }
+    
+
+    private void CharacterRotation()
+    {
+        // 좌우 캐릭터 회전
+        // 3차원 유니티에서 좌, 우는 y값
+        // Mouse X = 좌(1), 우(-1), Non_Input(0)
+        float _yRotation = Input.GetAxisRaw("Mouse X");
+        Vector3 _characterRotationY = new Vector3(0f, _yRotation, 0f) * lookSensitivity;
+
+        // myRigid.rotation = 케릭터의 회전값 
+        //Quaternion.Euler에 우리가 구한 벡터값(_characterRotationY)을 넣어준다 = 벡터값 => Quaternion값으로 변환
+        myRigid.MoveRotation(myRigid.rotation * Quaternion.Euler(_characterRotationY));
+    }
+
+    private void CameraRotation()
+    {
+        // 상하 카메라 회전
+        // 유니티는 3차원이다.
+        // 마우스는 3차원이 아닌 X,Y밖에 존재하지 않는다.
+        // Mouse Y = 위(1), 아래(-1), Non_Input(0)
+        float _xRotation = Input.GetAxisRaw("Mouse Y");
+        float _cameraRotationX = _xRotation * lookSensitivity;
+
+        // 여기서 +는 흔히 FPS 게임류 옵션에 있는 '마우스 Y반전'과 관련이 있다.
+        // +: 마우스 위로 = 인게임 카메라는 아래로,
+        currentCameraRotationX -= _cameraRotationX;
+        // 각도제한을 적용하기 위함 (이것의 값이, ~부터, ~까지) 고정되도록
+        currentCameraRotationX = Mathf.Clamp(currentCameraRotationX, -cameraRotationLimit, cameraRotationLimit);
+
+        // 위의 모든 과정으로 나온 정보를 실제 카메라에 적용하는 단계
+        // localEulerAngles = Transform 컴포넌트 상에 표기되어 있는 Rotation x, y, z라고 보면 된다.
+        // '회전'에 대해 내부적으로는 이 오일러 값이 Quaternion이라는 4원소 값을 갖는데, 쉽게 우리는 x,y,z만 쓴다고 보면된다.
+        theCamera.transform.localEulerAngles = new Vector3(currentCameraRotationX, 0f, 0f);
+    }
+}
+```
+
