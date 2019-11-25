@@ -19,6 +19,9 @@ In **Java**, it's all about dealing with exercises in class, rather than making 
 
 
 In **C#**, I recently had a group study using Unity 3D with three friends.
+
 There is no Output made in C# at this time.
+
 But!! I'm going to make **something awesome** soon.
+
 When the project is completed, I will open it through **here**.
