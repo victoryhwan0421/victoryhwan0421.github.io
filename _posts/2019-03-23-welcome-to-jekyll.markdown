@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction"소통하길 원해요
+title:  "Introduction"
 date:   2019-11-25 21:26:36 +0530
 categories: MyInfo
 ---
