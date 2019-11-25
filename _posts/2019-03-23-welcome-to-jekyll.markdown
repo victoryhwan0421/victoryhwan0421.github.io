@@ -13,9 +13,9 @@ I'm interested in **Game**, because I've been dreaming of becoming a **Game Deve
 
 
 **If you want to contact me**<br>
-**[Instagram]**:<br>
-**[Facebook]**:<br>
-**Email**: victoryhwan@naver.com
+**[Instagram]** : https://www.instagram.com/victoryhwan/<br>
+**[Facebook]** : https://www.facebook.com/seunghwan.lee.144<br>
+**Email** : victoryhwan@naver.com
 
 
 

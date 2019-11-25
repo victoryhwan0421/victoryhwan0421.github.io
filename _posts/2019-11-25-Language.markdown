@@ -2,7 +2,7 @@
 layout: post
 title:  "Talk about what I've learned"
 date:   2019-11-25 22:07:36 +0530
-categories: Language C, C++, Java, C#
+categories: Language C C++ Java C#
 ---
 I've learn the Language **C**, **C++**, **Java**, and **C#**.<br>
 
