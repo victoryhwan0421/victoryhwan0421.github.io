@@ -15,7 +15,7 @@ Second, **Matrix operation program**<br>
 
 In **Java**, it's all about dealing with exercises in class, rather than making a specific program.<br>
 
-In **C#**, I recently had a group study using Unity 3D with three friends.<br>
+In **C#**, I recently had a group study using **Unity 3D** with three friends.<br>
 There is no Output made in C# at this time.<br>
 But!! I'm going to make **something awesome** soon.<br>
 When the project is completed, I will open it through **here**.
