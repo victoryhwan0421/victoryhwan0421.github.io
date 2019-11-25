@@ -13,16 +13,16 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: SeungHwan-Lee
-  tagline: Developer. Designer
+  tagline: University Student
+  tagline: Kangwon National University
+  tagline: victoryhwan@naver.com
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
   social_links:
-    instagram: 
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    instagram: victoryhwan
+    facebook: 01038683012
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
