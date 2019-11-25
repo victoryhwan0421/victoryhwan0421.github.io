@@ -13,6 +13,11 @@ I'm interested in **Game**, because I've been dreaming of becoming a **Game Deve
 
 
 **SNS** & **Email**<br>
-**Instagram**: [https://www.instagram.com/victoryhwan/] <br>
-**Facebook**:[https://www.facebook.com/seunghwan.lee.144] <br>
+**[Instagram]**:
+**[Facebook]**:
 **Email**: victoryhwan@naver.com
+
+
+
+[Instagram]: https://www.instagram.com/victoryhwan/
+[Facebook]: https://www.facebook.com/seunghwan.lee.144
