@@ -19,11 +19,8 @@ This is my first Post
 
 **Script for FPS view & Players Movements**
 
-```C#script
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+#C#script
+```C#
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
