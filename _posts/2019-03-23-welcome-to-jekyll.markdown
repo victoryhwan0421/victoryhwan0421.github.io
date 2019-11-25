@@ -12,9 +12,9 @@ I'm interested in **Game**, because I've been dreaming of becoming a **Game Deve
 
 
 
-**SNS** & **Email**<br>
-**[Instagram]**:
-**[Facebook]**:
+**If you want to contact me**<br>
+**[Instagram]**:<br>
+**[Facebook]**:<br>
 **Email**: victoryhwan@naver.com
 
 
