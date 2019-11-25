@@ -4,24 +4,18 @@ title:  "Talk about what I've learned"
 date:   2019-11-25 22:07:36 +0530
 categories: Language C, C++, Java, C#
 ---
-I've learn the Language **C**, **C++**, **Java**, and **C#**.
+I've learn the Language **C**, **C++**, **Java**, and **C#**.<br>
 
-It's not perfect, but I made a **Phone book** and a **Video rental program** with **C**, 
-and I'm currently working on a basic program for **Flash memory**.
+It's not perfect, but I made a **Phone book** and a **Video rental program** with **C**,<br>
+and I'm currently working on a basic program for **Flash memory**.<br>
 
+**C++** is not as perfect as c, but I've written a few programs.<br>
+First, **Phone book**<br>
+Second, **Matrix operation program**<br>
 
-**C++** is not as perfect as c, but I've written a few programs.
-First, **Phone book**
-Second, **Matrix operation program**
+In **Java**, it's all about dealing with exercises in class, rather than making a specific program.<br>
 
-
-In **Java**, it's all about dealing with exercises in class, rather than making a specific program.
-
-
-In **C#**, I recently had a group study using Unity 3D with three friends.
-
-There is no Output made in C# at this time.
-
-But!! I'm going to make **something awesome** soon.
-
+In **C#**, I recently had a group study using Unity 3D with three friends.<br>
+There is no Output made in C# at this time.<br>
+But!! I'm going to make **something awesome** soon.<br>
 When the project is completed, I will open it through **here**.
