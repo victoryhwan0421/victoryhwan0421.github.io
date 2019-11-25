@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Paper5_Investigating the Effects of Anthropomorphic Fidelity of Self-Avatars"
+date:   2019-11-26 00:14:31 +0530
+categories: Paper VR Fidelity Self-Avatars NearField Depth Perception
+---
+This is a Post about The Paper I read_5<br>
+
+**Title** : Investigating the Effects of Anthropomorphic Fidelity of Self-Avatars on Near Field Depth Perception in Immersive Virtual Environments<br>
+
+**Contents**
+![Paper5](https://user-images.githubusercontent.com/57661571/69561076-1f4e1500-0ff0-11ea-97e4-6660205b0908.PNG)
+
+
+**Comment**
+Update soon!!

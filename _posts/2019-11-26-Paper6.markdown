@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Paper6_Interacting with Distant Objects in Augmented Reality"
+date:   2019-11-26 00:14:31 +0530
+categories: Paper AR Interacting Distant_Objects   
+---
+This is a Post about The Paper I read_6<br>
+
+**Title** : Interacting with Distant Objects in Augmented Reality<br>
+
+**Contents**
+![Paper6](https://user-images.githubusercontent.com/57661571/69561122-2bd26d80-0ff0-11ea-9d37-623c5fb7f3f2.PNG)
+
+![Paper6_1](https://user-images.githubusercontent.com/57661571/69561160-40af0100-0ff0-11ea-98e0-6dd18387629a.PNG)
+
+![Paper6_2](https://user-images.githubusercontent.com/57661571/69561188-4f95b380-0ff0-11ea-8de5-9a80519ef8bb.PNG)
+
+![Paper6_3](https://user-images.githubusercontent.com/57661571/69561203-558b9480-0ff0-11ea-8db4-4fa309b856ac.PNG)
+
+
+**Comment**
+Update soon!!
