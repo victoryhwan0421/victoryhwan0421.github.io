@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Talk about what I've learned"
+date:   2019-11-25 22:07:36 +0530
+categories: Language C, C++, Java, C#
+---
+i've learn Language **C** and **C++**.
+
+It's not perfect, but I made a **Phone book** and a **Video rental program** with **c**, and I'm currently working on a basic program for **Flash memory**.
+
+
+
+**C++** is not as perfect as c, but I've written a few programs.
+
+First, **Phone book**
+
+Second, **Matrix operation program**
+
