@@ -1,6 +1,6 @@
-title: Your awesome title
+title: SeungHwan-Lee - Homepage
 author: GitHub User
-email: your-email@domain.com
+email: victoryhwan@naver.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -15,7 +15,6 @@ plainwhite:
   name: SeungHwan-Lee
   tagline: University Student
   tagline: Kangwon National University
-  tagline: victoryhwan@naver.com
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
