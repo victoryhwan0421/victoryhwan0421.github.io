@@ -24,7 +24,7 @@ This is  **Directional Light off & Flashlight ON** conditions.<br> <br>
 
 
 **Script for FPS view & Player Movements**<br>
-#C#script
+# C#script
 ```C#
 public class PlayerController : MonoBehaviour
 {
