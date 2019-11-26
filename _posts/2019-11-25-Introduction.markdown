@@ -12,7 +12,7 @@ I have video and image editing abilities using **Premiere Pro** and **PhotoShop*
 You can see these results on my **[YouTube Channel]**.<br>
 (But now I'm focusing on my studies, so I stopped running my channel and uploading videos.)<br><br>
 
-![sns2](https://user-images.githubusercontent.com/57661571/69612927-01c28f00-1074-11ea-811b-8d5660b7240c.png) <br>
+![sns2](https://user-images.githubusercontent.com/57661571/69615819-e3ab5d80-1078-11ea-8a99-70b0d54f8572.png) <br>
 **If you want to contact me**<br>
 ∎**[Email]**    : victoryhwan@naver.com<br>
 ∎**[Instagram]** : https://www.instagram.com/victoryhwan/<br>
