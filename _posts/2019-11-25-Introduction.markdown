@@ -5,10 +5,10 @@ date:   2019-11-25 21:26:36 +0530
 categories: MyInfo
 ---
 Hello, My name is SeungHwan-Lee. <br>
-I'm a student in **Kangwon National University**, and major is **Computer Science**.<br>
+I'm a student in **Kangwon National University**, and my major is **Computer Engineering**.<br>
 
 
-I'm interested in **Game**, because I've been dreaming of becoming a **Game Developer** since I was young.<br>
+I'm interested in **Playing and Developing games**, because I've been dreaming of becoming a **Game Developer** since I was young.<br>
 
 
 
