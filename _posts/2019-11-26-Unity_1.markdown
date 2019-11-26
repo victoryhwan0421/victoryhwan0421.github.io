@@ -4,7 +4,9 @@ title:  "Unity_1"
 date:   2019-11-26 00:14:31 +0530
 categories: Unity Game Horror C#
 ---
-This is my first Post 
+This is my first Post about Unity 3D.<br>
+I'm making a Horror FPS Game.<br>
+Now I've implemented the *Player's movements* and *Some pars of Terrain* and *Lightless Corridor*.<br>
 
 **ScreenShots_1** <br>
 <img width="742" alt="캡처1" src="https://user-images.githubusercontent.com/57661571/69554666-726e9a80-0fe5-11ea-8c63-3bde190c1226.PNG"> <br>
@@ -15,12 +17,13 @@ This scene is  **Directional Light ON** conditions.<br>
 <img width="738" alt="캡처2" src="https://user-images.githubusercontent.com/57661571/69554873-c5e0e880-0fe5-11ea-9ca7-35585660a5d4.PNG"> <br>
 This is  **Directional Light Off & FPS(First-Person-Shooter) View** conditions.<br>
 
-**ScreenShots_3**
+
+**ScreenShots_3** <br>
 <img width="736" alt="캡처3" src="https://user-images.githubusercontent.com/57661571/69555202-253ef880-0fe6-11ea-9a15-6fb6eb2cd575.PNG"> <br>
-This is  **Directional Light off & Flashlight ON** conditions.<br>
+This is  **Directional Light off & Flashlight ON** conditions.<br> <br>
 
 
-**Script for FPS view & Player Movements**
+**Script for FPS view & Player Movements**<br>
 #C#script
 ```C#
 public class PlayerController : MonoBehaviour
