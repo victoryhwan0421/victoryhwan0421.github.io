@@ -9,9 +9,9 @@ I learned the Language **C**, **C++**, **Java**, and **C#**.<br>
 It's not perfect, but I made a **Phone book** and a **Video rental program** with **C**,<br>
 and now I’m making a basic program for **Flash memory**.<br>
 
-Although **C++** is not perfect like C, but I made a few programs.<br>
+Although **C++** is not perfect like C, but I tried to make some programs.<br>
 First is **Phone book**<br>
-Second is **Matrix operation program**<br>
+Second is **Matrix Operation program**<br>
 
 In the case of **Java**,  I just solved exercise question in class , rather than made a specific program<br>
 
