@@ -6,7 +6,7 @@ categories: Unity Game Horror C#
 ---
 This is my first Post about Unity 3D.<br>
 I'm making a Horror FPS Game.<br>
-Now I've implemented the *Player's movements* and *Some pars of Terrain* and *Lightless Corridor*.<br>
+Now I've implemented the ***Player's movements*** and ***Some pars of Terrain*** and ***Lightless Corridor***.<br>
 
 **ScreenShots_1** <br>
 <img width="742" alt="캡처1" src="https://user-images.githubusercontent.com/57661571/69554666-726e9a80-0fe5-11ea-8c63-3bde190c1226.PNG"> <br>
