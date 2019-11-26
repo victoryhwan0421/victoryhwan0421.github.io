@@ -17,12 +17,13 @@ I'm interested in **Playing and Developing games**, because I've been dreaming o
 **If you want to contact me**<br>
 **[Instagram]** : https://www.instagram.com/victoryhwan/<br>
 **[Facebook]**  : https://www.facebook.com/seunghwan.lee.144<br>
-   **Email**    : victoryhwan@naver.com<br><br>
+**Email**    : victoryhwan@naver.com<br><br>
 
 **If you want to play games together**<br>
 **Battle.net** : ShaKoPhaNTom #3155<br>
    **Steam**   : victoryhwan@naver.com / dltmdghks940<br>
 **League of Legends** : 굴러랏 맹독충<br>
+**PUBG** : PGM_Rolling<br>
 
 [Instagram]: https://www.instagram.com/victoryhwan/
 [Facebook]: https://www.facebook.com/seunghwan.lee.144
